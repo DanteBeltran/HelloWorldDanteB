@@ -15,6 +15,12 @@ print ("This is awsome!")
 -- hide the status bar
 display.setStatusBar(display.HiddenStatusBar)
 
+-- load sounds
+local backgroundMusic = audio.loadSound("Sounds/Background Music.mp3")
+
+--play sounds
+audio.play(backgroundMusic)
+
 --sets the backround colour
 display.setDefault("background", 255/255, 128/255, 0/255 )
 
